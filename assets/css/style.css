@@ -21,11 +21,13 @@ header {
 h1 {
 	color: white;
 	background-color: #4aaaa5;
+	font-size: 30px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
 	padding: 20px;
 	width: fit-content;
 	margin-left: 100px;
+	margin-top: 30px;
 	margin-bottom: 0;
 	float: left;
 }
@@ -39,17 +41,21 @@ h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	margin: 7px;
+	font-size: 25px;
+	font-weight: bold;
 }
 h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	margin-bottom: 0;
+	font-size: 20px;
+	font-weight: bold;
 }
 hr {
 	border-width: 2px;
 	border-style: solid;
 	color: #777777;
-	margin: 7px;
+	margin: 15px;
 }
 .topnav {
 	float: left;
@@ -83,6 +89,10 @@ hr {
 	margin-bottom: 50px;
 	padding: 20px; 
 	float: left;
+}
+p {
+	padding-right:15px;
+	line-height: 1.2;
 }
 
 .sidebar {
